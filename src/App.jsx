@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      Salom main birinchi push
+     salom bu ikkinchi push uch
     </>
   )
 }
