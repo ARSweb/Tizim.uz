@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      Salom main birinchi push
+      {/* My first push (Alisher) */}
     </>
   )
 }
