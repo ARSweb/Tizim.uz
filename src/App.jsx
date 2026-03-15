@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-     salom bu ikkinchi push uch
+      !!!!!!!!!!
     </>
   )
 }
