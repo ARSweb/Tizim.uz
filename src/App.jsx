@@ -1,10 +1,16 @@
+import BusinessTypes from "./BusinessTypes/business"
 
 
 function App() {
 
   return (
     <>
-      {/* My first push (Alisher) */}
+    <header></header>
+    <main>
+      {/* Business Types (Alisher)*/}
+      <BusinessTypes/>
+    </main>
+    <footer></footer>
     </>
   )
 }
