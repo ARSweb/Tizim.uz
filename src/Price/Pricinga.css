@@ -1,0 +1,88 @@
+.quti {
+  @apply bg-gray-100 py-20 px-5 text-center;
+}
+
+.asos1 {
+  @apply text-blue-600 font-semibold mb-2;
+}
+
+.asos2 {
+  @apply text-3xl font-bold mb-4;
+}
+
+.asos3 {
+  @apply text-gray-500 mb-12;
+}
+
+.cards {
+  @apply max-w-[1200px] mx-auto grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3;
+}
+
+.box1,
+.box2 {
+  @apply bg-white p-8 rounded-2xl flex flex-col justify-between relative text-left shadow-md;
+}
+
+.box2 {
+  @apply border-2 border-blue-600 scale-105;
+}
+
+.badge {
+  @apply absolute -top-3 left-1/2 -translate-x-1/2 bg-indigo-500 text-white px-4 py-1 text-sm rounded-full;
+}
+
+.h3 {
+  @apply text-lg font-semibold mb-2;
+}
+
+.p {
+  @apply text-gray-500 mt-1; 
+}
+
+.h1 {
+  @apply text-2xl font-bold my-4;
+}
+
+.h1 span {
+  @apply text-sm text-gray-500;
+}
+
+.features {
+  @apply mt-4 mb-6;
+}
+
+.h4 {
+  @apply flex items-center gap-2 mb-2 text-gray-900;
+}
+
+.h4.no {
+  @apply text-gray-400;
+}
+
+.button {
+  @apply py-3 px-4 rounded-md font-semibold cursor-pointer border transition-all duration-300 ease-in-out;
+}
+
+.box1 .button {
+  @apply bg-white border border-gray-400;
+}
+
+.box1 .button:hover {
+  @apply bg-gray-100;
+}
+
+
+.box2 .button {
+  color: white;
+  background: linear-gradient(to right, #4f46e5, #8b5cf6);
+}
+
+.box2 .button:hover {
+  box-shadow: 0 10px 20px rgba(0, 8, 255, 0.18);
+}
+
+
+.box1:hover {
+  transition: all 0.8s ease-in-out;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}

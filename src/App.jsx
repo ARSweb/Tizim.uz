@@ -1,5 +1,5 @@
 import BusinessTypes from "./BusinessTypes/business"
-
+import Prices from "./Price/Pricing"
 
 function App() {
 
@@ -9,6 +9,8 @@ function App() {
     <main>
       {/* Business Types (Alisher)*/}
       <BusinessTypes/>
+      {/* Pricing (Bekzod) */}
+      <Prices/>
     </main>
     <footer></footer>
     </>
